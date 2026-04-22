@@ -6,7 +6,7 @@ This project simulates a manufacturing analytics scenario for a fictional guitar
 
 I built a Python-based data generator to create realistic, relational datasets (production units, defects, root causes, suppliers, etc.), then modeled and visualized that data in Power BI to answer a central question:
 
-Where are we losing yield, why is it happening, and where should improvement efforts be focused?
+_Where are we losing yield, why is it happening, and where should improvement efforts be focused?_
 
 The final output is the first pass of a single-page dashboard that highlights (Default filtering: all Families, Lines, and Models):
 
@@ -18,6 +18,7 @@ The final output is the first pass of a single-page dashboard that highlights (D
 The key takeaway:
 Yield loss is concentrated in a specific stage and driven primarily by internal process issues, indicating that improvements in process control and execution (particularly in Finishing) would have the greatest impact on overall performance.
 
+---
 
 ## 2. Business Problem
 
@@ -34,8 +35,10 @@ A mid-sized guitar manufacturer is experiencing yield loss and rising rework cos
 
 The challenge is to connect reporting metrics to a clear narrative that supports decision-making.
 
+---
+
 ## 3. Methodology
-Data Preparation (Python)
+__Data Preparation (Python)__
 
 I created a structured dataset to simulate a manufacturing environment, including:
 
@@ -45,9 +48,9 @@ I created a structured dataset to simulate a manufacturing environment, includin
 - Root cause classification (internal vs. supplier-linked)
 - Suppliers and components
 
-The data was designed to reflect realistic relationships between production stages, defect types, and failure outcomes, allowing for meaningful analysis without unnecessary complexity.
+The data was designed to reflect realistic relationships between production stages, defect types, and failure outcomes, allowing for meaningful analysis.
 
-Data Modeling (Power BI)
+__Data Modeling (Power BI)__
 
 I modeled the data using a relational structure to support analysis across:
 
@@ -73,14 +76,16 @@ The dashboard was designed as a single-page view with a clear analytical flow:
 
 A dynamic insight panel summarizes key findings and adjusts based on user selections, reinforcing the connection between data and interpretation.
 
+---
+
 ## 4. Skills Demonstrated
-- Data Engineering / Preparation
+__Data Engineering / Preparation__
 - Python (data generation, structured simulation)
 - Pandas (data shaping and transformation)
 - Relational data modeling
 - Synthetic data design for realistic business scenarios
 
-Business Intelligence
+__Business Intelligence__
 - Power BI dashboard development
 - DAX measures:
   - Context-aware calculations
@@ -88,16 +93,18 @@ Business Intelligence
   - KPI aggregation logic
 - Star schema design and relationship management
 
-Analytics & Problem Solving
+__Analytics & Problem Solving__
 - Root cause analysis
 - Failure segmentation (stage, defect, supplier)
 - KPI design aligned to business questions
 - Translating data into decisions, not just visuals
 
-UX / Communication
+__UX / Communication__
 - Information hierarchy in dashboard design
 - Narrative-driven layout
 - Dynamic insight generation based on user interaction
+
+---
 
 ## 5. Results & Recommendations
 Key Findings
@@ -125,7 +132,9 @@ Secondary: Review Supplier Contributions
 
 Expected Impact:
 
-Because failures are concentrated, targeted improvements—particularly within the Finishing stage—would have a disproportionate effect on overall FPY. Reducing a small number of high-frequency defects could meaningfully improve yield, reduce rework, and increase throughput reliability.
+Because failures are concentrated, targeted improvements (particularly within the Finishing stage) would have a disproportionate effect on overall FPY. Reducing a small number of high-frequency defects could meaningfully improve yield, reduce rework, and increase throughput reliability.
+
+---
 
 ## 6. Potential Extensions
 
