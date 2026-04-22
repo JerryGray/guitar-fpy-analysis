@@ -1,0 +1,46 @@
+defect_id,defect_name,severity,supplier_category,supplier_subcategory
+D001,Wood crack,High,Wood,Body
+D002,Warped neck,High,Wood,Neck
+D003,Inconsistent grain,Medium,Wood,Body
+D024,Improper neck joint fit,High,Wood,Neck
+D025,Body misrouted cavity,Medium,Wood,Body
+D026,Top delamination,High,Wood,Top
+D027,Bridge lifting from body,High,Wood,Bridge
+D028,Uneven fretboard radius,Medium,Wood,Fretboard
+D007,Bridge misaligned,High,Hardware,Bridges
+D008,Tuner slippage,Medium,Hardware,Tuners
+D009,Loose strap button,Low,Hardware,General
+D010,Sharp fret edges,Medium,Hardware,Fretwire
+D029,Fret buzz after assembly,Medium,Hardware,Fretwire
+D030,Uneven bridge height,Medium,Hardware,Bridges
+D031,Nut slot cut too deep,Medium,Hardware,General
+D032,Inlay misalignment,Low,Hardware,Inlays
+D033,Tuner post bent,Medium,Hardware,Tuners
+D011,Loose wiring,High,Electronics,Wiring
+D012,Short circuit,High,Electronics,Wiring
+D013,Pickup failure,High,Electronics,Pickups
+D014,Weak pickup output,Medium,Electronics,Pickups
+D015,Potentiometer noise,Low,Electronics,Pots/Switches
+D034,Grounding issue,High,Electronics,Wiring
+D035,Switch failure,Medium,Electronics,Pots/Switches
+D036,Output jack loose,Low,Electronics,Wiring
+D037,Piezo imbalance,Medium,Electronics,Piezo
+D004,Finish peel,High,Finish,Coatings
+D005,Uneven lacquer,Medium,Finish,Coatings
+D006,Bubbling finish,Medium,Finish,Coatings
+D038,Color mismatch,Low,Finish,Coatings
+D039,Dust inclusion in finish,Low,Finish,Coatings
+D040,Finish cracking,High,Finish,Coatings
+D041,Improper curing,Medium,Finish,Coatings
+D021,Glue curing error,Medium,Consumable,Glue
+D042,Excess adhesive residue,Low,Consumable,Glue
+D016,Operator error,Low,,
+D017,Measurement error,Low,,
+D018,Improper setup,Medium,,
+D019,Improper jig setup,Medium,,
+D020,Incorrect sanding,Low,,
+D022,Improper tool use,Medium,,
+D023,Inspection oversight,Low,,
+D043,Part omission during assembly,High,,
+D044,Rework damage,Medium,,
+D045,Contamination on work surface,Low,,

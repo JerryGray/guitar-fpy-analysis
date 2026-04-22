@@ -1,0 +1,26 @@
+supplier_id,supplier_name,broad_category,secondary_category,contact_info,tier,lead_time_days,cost_index,region,avg_material_cost_index
+S001,Maple Masters,Wood,Neck,contact@maplemasters.com,Secondary,10,0.95,US-Midwest,1.0
+S005,Tonewoods Ltd.,Wood,Body,info@tonewoods.com,Primary,14,1.1,Canada,0.98
+S013,Luthier Select,Wood,Top,sales@luthierselect.com,Primary,16,1.15,US-Northwest,1.01
+S014,Rainforest Tone Co.,Wood,Exotic,contact@rainforesttone.com,Secondary,18,1.25,Brazil,1.1
+S002,Harmonix Hardware,Hardware,General,sales@harmonix.com,Primary,7,1.0,US-Northeast,1.02
+S004,Solidbody Steel,Hardware,Bridges,info@solidbodysteel.com,Primary,12,1.2,Germany,1.05
+S007,BridgeTech,Hardware,General,sales@bridgetech.com,Secondary,15,0.85,Mexico,0.97
+S010,TuneFast,Hardware,Tuners,sales@tunefast.com,Secondary,12,1.1,Korea,1.03
+S015,Precision Metals,Hardware,Fretwire,contact@precisionmetals.com,Primary,10,1.05,US-Midwest,1.0
+S016,GlowParts Co.,Hardware,Inlays,support@glowparts.com,Secondary,17,1.12,Italy,1.04
+S003,PiezoWorks,Electronics,Pickups,support@piezoworks.com,Primary,15,1.2,Japan,1.08
+S006,ElectroMax,Electronics,Wiring,support@electromax.com,Primary,8,1.05,Taiwan,1.04
+S009,Humbucker House,Electronics,Pickups,sales@humbuckerhouse.com,Primary,18,1.0,US-West,1.0
+S011,WireRight,Electronics,Wiring,support@wireright.com,Primary,20,0.95,China,0.96
+S017,ToneCore Labs,Electronics,Pots/Switches,info@tonecorelabs.com,Primary,9,1.03,US-South,1.02
+S018,EchoDynamics,Electronics,Piezo,sales@echodynamics.com,Secondary,14,1.1,Singapore,1.05
+S008,ClearFinish Inc.,Finish,Coatings,contact@clearfinish.com,Secondary,20,1.1,US-South,1.01
+S012,BlazeCoats,Finish,Coatings,sales@blazecoats.com,Primary,25,1.0,US-Mountain,1.0
+S019,Aurora Lacquerworks,Finish,Coatings,support@auroralacquer.com,Secondary,18,1.08,UK,1.02
+S020,AdheTek Industries,Consumable,Glue,support@adhetek.com,Primary,9,1.05,US-Midwest,1.0
+S021,LuthierBond,Consumable,Glue,sales@luthierbond.com,Secondary,11,1.1,Germany,1.03
+S022,FinishCare Supply,Consumable,Polish,info@finishcare.com,Secondary,7,0.9,US-East,0.98
+S023,PickGuard Plastics,Hardware,Pickguard,support@pickguardplastics.com,Primary,15,0.95,US-West,0.99
+S024,StringSmith Co.,Consumable,Strings,contact@stringsmith.com,Primary,5,1.0,US-Central,1.0
+S025,AcoustiParts,Hardware,Acoustic,support@acoustiparts.com,Primary,13,1.08,Spain,1.05

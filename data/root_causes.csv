@@ -1,0 +1,35 @@
+root_cause_id,description,severity,supplier_category,scope
+RC001,Material defect,High,Wood,Supplier
+RC002,Electronics failure,High,Electronics,Supplier
+RC003,Faulty hardware part,High,Hardware,Supplier
+RC004,Finish contamination,Medium,Finish,Supplier
+RC016,Adhesive formulation error,High,Consumable,Supplier
+RC017,Improper alloy mix,High,Hardware,Supplier
+RC018,Defective wiring insulation,High,Electronics,Supplier
+RC019,Incorrect component spec,Medium,Electronics,Supplier
+RC020,Surface pre-treatment failure,Medium,Finish,Supplier
+RC005,Operator error,Low,,Internal
+RC006,Improper setup,Medium,,Internal
+RC007,Measurement error,Low,,Internal
+RC009,Glue curing issue,Medium,Consumable,Internal
+RC010,Improper tool use,Medium,,Internal
+RC011,Inspection oversight,Low,,Internal
+RC012,Training deficiency,Low,,Internal
+RC013,Design tolerance issue,Medium,,Internal
+RC014,Assembly misalignment,Medium,,Internal
+RC015,Handling/storage issue,Medium,,Internal
+RC021,Improper sanding or surface prep,Medium,Wood,Internal
+RC022,Incomplete rework procedure,Medium,,Internal
+RC023,Process contamination,Low,,Internal
+RC024,Improper curing temperature,Medium,Finish,Internal
+RC025,Improper clamping pressure,Medium,Wood,Internal
+RC026,"Environmental factor (humidity, temp)",Medium,Wood,Both
+RC027,Improper adhesive mix ratio,Medium,Consumable,Both
+RC028,Poor material storage conditions,Medium,Wood,Both
+RC029,Component spec misunderstanding,Medium,Hardware,Both
+RC030,Batch contamination,High,Finish,Both
+RC031,Electrostatic discharge event,High,Electronics,Both
+RC032,Transport vibration damage,Medium,,Both
+RC033,Moisture absorption before finishing,Medium,Wood,Both
+RC034,Tool calibration drift,Medium,,Both
+RC035,Incorrect supplier lot documentation,Low,,Both
