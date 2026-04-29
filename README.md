@@ -29,7 +29,7 @@ Yield loss is driven primarily by internal process issues within a specific stag
 ### "Finishing" Stage Selected in chart (updates Top 5 defects, Root Cause Category, and Top 5 Suppliers visuals)
 ![Finishing Stage](screenshots/finishing_stage_selected.png)
 
-### Filtered Example (Duskwind Series - updates KPI row and all visuals)
+### Filtered Example (Duskwind Series - updates "filtered" text in the header, the KPI row, and all visuals)
 ![Filtered View](screenshots/filtered_to_duskwing_series.png)
 
 ### Slicer Panel
