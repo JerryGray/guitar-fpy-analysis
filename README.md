@@ -5,7 +5,7 @@
 This project simulates a manufacturing analytics scenario for a fictional guitar company and demonstrates how production data can be transformed into clear, decision-oriented insight.
 
 **Core question:**
-Where are we losing yield, why is it happening, and where should improvement efforts be focused?
+Where is yield loss occurring, and what process changes would have the greatest impact?
 
 ---
 
@@ -42,18 +42,22 @@ Yield loss is driven primarily by internal process issues within a specific stag
 
 ## Tools Used
 
-- Power BI (data modeling, DAX, visualization)
-- Python (data generation)
-- Pandas (data preparation)
+- Power BI: star schema data modeling, DAX measures, conditional formatting, custom tooltip pages
+- Python: synthetic data generation
+  - Pandas: DataFrame construction and CSV output across 9 structured files
+  - uuid, random, dateutil: unit ID generation, seeded randomization, and date arithmetic
 
 ---
 
 ## Approach
 
-- Created a structured dataset simulating production units and defects
-- Modeled relationships between stages, defects, and root causes
-- Built DAX measures for FPY and failure distribution
-- Designed a single-page dashboard focused on clarity and decision support
+ - Generated 2,000+ production unit rows and 11,000+ inspection rows across 9 CSV files simulating 14 months of guitar manufacturing operations
+ - Modeled 45 defect types and 35 root causes with stage-aware selection logic, preventing defects from appearing at production stages where they couldn't realistically be detected
+ - Applied weighted root cause attribution per defect, distinguishing supplier-driven, internal, and shared responsibility
+ - Calibrated scrap probabilities per defect type, ranging from near-certain scrap for structural wood failures to rare scrap for finish and process defects
+ - Modeled relationships between stages, defects, and root causes in Power BI
+ - Built DAX measures for FPY and failure distribution
+ - Designed a single-page dashboard focused on clarity and decision support
 
 ---
 
