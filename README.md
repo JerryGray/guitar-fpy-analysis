@@ -36,7 +36,7 @@ Yield loss is driven primarily by internal process issues within a specific stag
 ![Slicer Panel](screenshots/slicer_panel_showing.png)
 
 ### Tooltip Example
-![Tooltip](screenshots/top_contributers_tooltip.png)
+![Tooltip](screenshots/top_contributors_tooltip.png)
 
 ---
 
