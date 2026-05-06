@@ -49,6 +49,39 @@ Yield loss is driven primarily by internal process issues within a specific stag
 
 ---
 
+## Paginated Reports (Power BI Report Builder)
+
+In addition to the interactive dashboard, this project includes a set of paginated 
+reports built in Power BI Report Builder, using the same underlying SQL Server dataset. 
+These demonstrate the .rdl format used by both Report Builder and SSRS.
+
+### Report 1: Production Unit Log
+A tabular log of all production units with model, batch, finish, status, and total production days.
+
+![Production Unit Log](screenshots/production_unit_log.png)
+
+### Report 2: Inspection Detail (Parameterized)
+Filterable by date range and production stage. Date range defaults are pulled dynamically
+from the database rather than hard-coded.
+
+![Inspection Detail](screenshots/quality_inspection_detail.png)
+
+### Report 3: FPY Summary by Model and Month
+Grouped by model with per-model subtotals and a grand total. FPY % is calculated at
+both the monthly detail level and the subtotal/grand total level.
+
+![FPY Summary](screenshots/fpy_summary.png)
+
+### Report Builder concepts demonstrated
+- Embedded data sources and datasets with multi-table JOIN queries
+- Query-driven parameter defaults (dynamic min/max date from the database)
+- Dropdown parameters with static available values
+- Row grouping with merged group header rows and subtotal footers
+- Calculated expressions for FPY % at both detail and aggregate levels
+- CTE-based queries to support clean unit-level aggregation
+
+---
+
 ## Approach
 
  - Generated 2,000+ production unit rows and 11,000+ inspection rows across 9 CSV files simulating 14 months of guitar manufacturing operations
