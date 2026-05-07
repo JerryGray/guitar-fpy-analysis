@@ -24,7 +24,7 @@ Yield loss is driven primarily by internal process issues within a specific stag
 ## Dashboard Preview
 
 ### Default View
-![Default View](screenshots/default_view.png)
+![Default View](screenshots/default_view.png?v=2)
 
 ### "Finishing" Stage Selected in chart (updates Top 5 defects, Root Cause Category, and Top 5 Suppliers visuals)
 ![Finishing Stage](screenshots/finishing_stage_selected.png)
