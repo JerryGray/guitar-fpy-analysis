@@ -94,8 +94,19 @@ both the monthly detail level and the subtotal/grand total level.
 
 ---
 
-## Full Project Write-Up
+## Potential Extensions/Next Steps
 
-For a detailed breakdown of the business problem, methodology, and recommendations:
-
-👉 [View Full Project Details](project_details.md)
+- Time-series / Process stability analysis
+  - Control charts (p-charts) to monitor FPY and defect rates over time
+  - Add rolling averages to KPIs
+- Dedicated drill-through pages for:
+  - Stage deep-dive
+  - Supplier performance profiles
+  - Operator-Level insights
+- Build a Recommendation / What-if Layer
+  - Extend the data model to simulate improvement scenarios
+    - _If [Glue curing errors] is reduced [15%], expected FPY impact is x._
+- Cost of Poor Quality (COPQ) Analysis
+  - Scrap cost (material loss)
+  - Rework labor cost
+  - Top cost drivers (also factored into the main page's insight text and improvement scenario calculations)
